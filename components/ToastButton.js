@@ -1,13 +1,14 @@
 'use client'
-import AddToCalendar from "./AddToCalendar";
-const CustomButton = () => {
+import showToast from "./ShowToast";
+
+const ToastButton = () => {
     return (
         <div>
-            <button onClick={() => AddToCalendar()}>
-                Click Me
+            <button onClick={() => showToast()}>
+                Show Toast
             </button>
         </div>
     )
 }
 
-export default CustomButton
+export default ToastButton

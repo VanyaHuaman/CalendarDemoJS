@@ -1,4 +1,4 @@
-function CustomScript() {
+function ShowToast() {
     console.log("Button clicked! Executing show toast script...");
     // Your script logic here
     if (typeof window !== "undefined") {
@@ -6,4 +6,4 @@ function CustomScript() {
     }
 }
 
-export default CustomScript
+export default ShowToast
